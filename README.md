@@ -66,3 +66,15 @@ python import_data.py
 python manage.py test
 ```
 
+## API Endpoints
+
+### Get Shipments
+
+- **URL**: `/shipments/<carrier>/<tracking_number>/`
+- **Method**: `GET`
+- **Description**: Fetches all shipments for the given carrier and tracking number. Also retrieves weather data for the receiver's location.
+
+#### Example Request
+
+```bash
+GET /shipments/DHL/TN12345678/

@@ -1,0 +1,40 @@
+.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Windows
+Desktop.ini
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# pytest
+.cache/
+
+# coverage reports
+.coverage
+coverage.xml
+
+# local virtual environment
+venv/
+ENV/
+env/
